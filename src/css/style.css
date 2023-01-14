@@ -1,0 +1,130 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "League Spartan", sans-sefif;
+    font-size: 15px;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.main .section .users-rating{
+    display: flex;
+    margin: 20px;
+}
+
+.main .section .users-rating .info-users{
+    margin: 20px;
+    width: 400px;
+}
+
+.main .section .users-rating .info-users .text-main{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--very-dark);
+    margin-bottom: 20px;
+}
+
+.main .section .users-rating .info-users .text{
+    font-weight: 300;
+    color: var(--neutral-dark);
+    margin-right: 20px;
+}
+
+.main .section .users-rating .rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.main .section .users-rating .rating .stars{
+    background-color: var(--neutral-light);
+    text-align: right;
+    padding: 20px 0px;
+    width: 350px;
+    border-radius: 6px;
+}
+
+.main .section .users-rating .rating .stars .text{
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.main .section .users-rating .rating .stars .text:before{
+    content: "";
+    background: url(../images/icon-star.svg) center;
+    height: 16px;
+    width: 85px;
+    display: inline-block;
+    margin: 0px 14px;
+}
+
+.main .section .users-rating .rating .star-left{
+    width: 450px;
+}
+
+.main .section .users-rating .rating .star-center{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+}
+
+.main .section .users-rating .rating .star-right{
+    display: flex;
+    justify-content: right;
+    width: 450px;
+}
+
+.main .section .reviews-of-users{
+    display: flex;
+    padding: 40px;
+}
+
+.main .section .reviews-of-users .section-user{
+    width: 279px;
+    height: 210px;
+    padding: 20px;
+    background-color: var(--very-dark);
+    border-radius: 12px;
+    margin-right: 25px;
+}
+
+.main .section .reviews-of-users .section-center{
+    display: flex;
+    align-items: center;
+    height: 240px;
+}
+
+.main .section .reviews-of-users .section-right{
+    display: flex;
+    align-items: flex-end;
+    height: 240px;
+}
+
+.main .section .reviews-of-users .section-user .user{
+    display: flex;
+    margin: 20px 10px;
+}
+
+.main .section .reviews-of-users .section-user .user img{
+    width: 35px;
+    margin-right: 15px;
+    border-radius: 100%;
+}
+
+.main .section .reviews-of-users .section-user .user .name-verified .name-user{
+    color: #fff;
+}
+
+.main .section .reviews-of-users .section-user .user .name-verified .verified{
+    color: var(--soft);
+    font-weight: 500;
+}
+
+.main .section .reviews-of-users .section-user .comment{
+    color: #fff;
+    line-height: 18px;
+}
