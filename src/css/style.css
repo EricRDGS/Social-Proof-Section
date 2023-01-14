@@ -44,22 +44,23 @@
     background-color: var(--neutral-light);
     text-align: right;
     padding: 20px 0px;
-    width: 350px;
+    width: 400px;
     border-radius: 6px;
 }
 
 .main .section .users-rating .rating .stars .text{
     font-weight: 500;
-    margin-right: 50px;
+    color: var(--very-dark);
 }
 
-.main .section .users-rating .rating .stars .text:before{
-    content: "";
-    background: url(../images/icon-star.svg) center;
-    height: 16px;
-    width: 85px;
-    display: inline-block;
-    margin: 0px 14px;
+.main .section .users-rating .rating .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .section .users-rating .rating .stars .star{
+    margin-right: 20px;
 }
 
 .main .section .users-rating .rating .star-left{

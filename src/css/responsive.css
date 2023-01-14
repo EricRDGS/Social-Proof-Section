@@ -1,0 +1,53 @@
+@media(max-width: 990px){
+    .main{
+        height: 210vh;
+        margin: 0 20px;
+    }
+
+    .main .section .users-rating{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .section .users-rating .info-users{
+        text-align: center;
+    }
+
+    .main .section .users-rating .info-users .text{
+        margin: 0 30px;
+        font-size: 18px;
+    }
+
+    .main .section .users-rating .rating .stars{
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .main .section .users-rating .rating .stars .star{
+        margin-bottom: 10px;
+    }
+
+    .main .section .users-rating .rating .star-left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .section .users-rating .rating .star-right{
+        justify-content: center;
+    }
+
+    .main .section .reviews-of-users{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .main .section .reviews-of-users .section-user{
+        width: 350px;
+        margin-right: 10px;
+    }
+
+    .main .section .reviews-of-users .section-right{
+        align-items: flex-start;
+    }
+}
