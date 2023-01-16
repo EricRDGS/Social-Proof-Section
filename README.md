@@ -31,7 +31,7 @@ Users should be able to:
 
 # Desktop
 
-<img src="src/images/desktop.png" alt="desktop">
+<img src="src/images/desktop.png" alt="Desktop"
 
 # Mobile
 
