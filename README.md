@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ => My Github <=](https://ericrdgs.github.io/Social-Proof-Section/)
+- Live Site URL: [ => Access Website <=](https://ericrdgs.github.io/Social-Proof-Section/)
 
 ## My process
 
