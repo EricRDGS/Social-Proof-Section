@@ -11,12 +11,13 @@
 
 .main .section .users-rating{
     display: flex;
+    width: 68vw;
     margin: 20px;
 }
 
 .main .section .users-rating .info-users{
     margin: 20px;
-    width: 400px;
+    width: 40vw;
 }
 
 .main .section .users-rating .info-users .text-main{
@@ -37,7 +38,7 @@
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    width: 500px;
+    width: 40vw;
 }
 
 .main .section .users-rating .rating .stars{
